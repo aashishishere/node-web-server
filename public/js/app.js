@@ -2,6 +2,7 @@
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 
+
 const dataShow = document.querySelector('#output')
 const errorMessage = document.querySelector('#error')
 

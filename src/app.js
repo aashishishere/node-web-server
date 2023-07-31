@@ -5,6 +5,7 @@ const app = express()
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 const { response } = require('express')
+const port = process.env.PORT || 3000
 
 
 const publicDirectory = path.join(__dirname, '../public')
@@ -90,6 +91,6 @@ app.get("/products", (req,res) =>{
                 body:"404 error found"
             })
         })
-app.listen(3000,() =>{
+app.listen(port,() =>{
     console.log("Server started!")
 })
