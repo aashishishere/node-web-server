@@ -1,0 +1,43 @@
+/* body{
+    display: flexbox;
+} */
+
+h1{
+    color: blue;
+}
+
+img{
+    width: 400px;
+    box-shadow: 4px;
+}
+
+
+
+input{
+    padding: 8px 24px 8px 4px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 2px solid #a3a3a3;
+
+}
+input:focus{
+    border-color: #0F766E;
+
+}
+input:hover{
+    border-color: #0F766E;
+}
+
+button{
+    background-color: #0F766E;
+    padding: 8px 24px;
+    color: white;
+    box-shadow: none;
+    border: 2px solid #0F766E;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+#error{
+    color: #B91C1C;
+}
