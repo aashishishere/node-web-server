@@ -1,9 +1,19 @@
-/* body{
-    display: flexbox;
-} */
+body{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 960px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #404040;
+    font-size: 14px;
+
+}
 
 h1{
-    color: blue;
+    color: #171717;
+
 }
 
 img{
@@ -11,11 +21,19 @@ img{
     box-shadow: 4px;
 }
 
+form{
 
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    /* padding: 8px 16px;
+    border: 1px solid #e5e5e5; */
+
+
+}
 
 input{
     padding: 8px 24px 8px 4px;
-    margin-right: 8px;
     border-radius: 4px;
     border: 2px solid #a3a3a3;
 
@@ -40,4 +58,18 @@ button{
 }
 #error{
     color: #B91C1C;
+}
+
+footer{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 16px;
+}
+
+a{
+    color: #404040;
+    text-decoration: underline;
+    font-weight: 500;
+}
+a:hover{
+    color: #0F766E;
 }

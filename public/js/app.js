@@ -23,6 +23,7 @@ weatherForm.addEventListener('submit',(event) =>{
                 return errorMessage.textContent = `Error is: ${data.error.message}`
             }
 
+            errorMessage.textContent = ``
 
             dataShow.textContent = `The weather in ${location} is: ${data.current.condition.text}`
 
